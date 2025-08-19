@@ -1,0 +1,33 @@
+/* General Navbar Styles */
+nav {
+    background-color: #333; /* Dark background for the navbar */
+    overflow: hidden; /* Clear floats inside the nav */
+    padding: 10px 0; /* Add some vertical padding */
+    font-family: Arial, sans-serif;
+}
+
+/* Styling the list and list items */
+nav ul {
+    list-style-type: none; /* Removes the bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Arranges the list items horizontally */
+    justify-content: flex-end; /* Aligns the links to the right */
+}
+
+nav li {
+    display: block; /* Ensures links take up the full space of the list item */
+}
+
+/* Styling the links themselves */
+nav a {
+    color: white; /* White text for the links */
+    text-decoration: none; /* Removes the underline from links */
+    padding: 14px 20px; /* Adds padding inside each link for a clickable area */
+    display: block; /* Makes the entire padding area clickable */
+}
+
+/* Hover effect for the links */
+nav a:hover {
+    background-color: #575757; /* A slightly lighter background on hover */
+}
